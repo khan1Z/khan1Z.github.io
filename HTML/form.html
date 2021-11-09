@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form action="save.php" method="Get">
+        <label for="text">Name</label>
+        <input type="text" name="stu_name" id="name" placeholder="Enter Your Name" required><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="stu_email" id="email" placeholder="@gmail.com" required><br><br>
+        
+        <label for="password">Password</label>
+        <input type="password" name="stfu_password" id="password"  placeholder="Enter your psw" required><br><br>
+
+        <label for="number">Ph.no</label>
+        <input type="number" name="stfu_number" id="number"  placeholder="Enter your Phone" required><br><br>
+
+        <label for="passport">Passport</label>
+        <input type="file" name="stfu_passport" id="passport" accept="image/*"><br><br>
+        
+        <select name="stu_year" id="year">
+            <option value="">choose year</option>
+            <option value="first">1st year</option>
+            <option value="second">2nd year</option>
+            <option value="third">3rd year</option>
+        </select><br><br>
+
+            <label for="">Gender</label><br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label><br><br>
+
+
+    
+
+
+
+
+        <button type="submit">save</button>
+    </form>
+</body>
+</html>
