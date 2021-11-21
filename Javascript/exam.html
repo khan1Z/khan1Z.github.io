@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><style>
+    body {
+        text-align: center;
+    }
+     
+    
+</style>
+<body>
+    <h1>Exam Result</h1>
+     <form  name="myform">
+
+<label for="c">Name</label>
+<input type="number" name="c" id="c" required placeholder="Enter Turbo C Only"></input><br><br>
+<label for="java">JAVA</label>
+<input type="number" name="java" id="java" required placeholder="Enter Java  Mark"></input><br><br>
+<label for="js">Javascript</label>
+<input type="number" name="js" id="js" required placeholder="Enter JavaScript  Mark"></input><br><br>
+<button type="button" onclick="result()">Result</button>
+
+
+
+
+
+
+
+</form>
+<script>
+    function  result (){
+        //alert("Hello");
+        let c = document.myform.c.value;
+        console.log(c);
+        let java = document.myform.java.value; 
+        console.log(java);
+        let js =document.myform.js.value;  
+        console.log(js);
+        
+        
+    
+    
+    //&& 
+    //||
+    // !
+    
+ if (c>=50&&java>=50&&js>=50) { document.write("<h1> Congratulation!!<br>You have pass this exam &#128525;</h1>")
+ 
+ 
+}
+
+    if(c<50||java<50||js<50){document.write("<h1>You have FAILED &#128532; <br>Keep Trying!!</h1><br>")}
+    if (c>80) {  document.write("<h1>*C(distinction)</h1>")
+   } 
+    if (java>80) { document.write("<h1>*JAVA(distinction)</h1>")}
+    if (js>80) { document.write("<h1> *Js(distinction)</h1>")}
+    
+
+ } 
+
+        
+    
+        
+    
+    
+    
+    
+         
+            
+
+        
+    
+
+     
+    
+     
+
+    
+    
+      
+
+    
+
+
+
+
+</script>
+</div>
+    
+</body>
+</html>
