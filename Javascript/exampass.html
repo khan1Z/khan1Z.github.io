@@ -16,7 +16,7 @@
     <h1>Exam Result</h1>
      <form  name="myform">
 
-<label for="c">Name</label>
+<label for="c">Turbo C</label>
 <input type="number" name="c" id="c" required placeholder="Enter Turbo C Only"></input><br><br>
 <label for="java">JAVA</label>
 <input type="number" name="java" id="java" required placeholder="Enter Java  Mark"></input><br><br>
@@ -39,26 +39,140 @@
         let java = document.myform.java.value; 
         console.log(java);
         let js =document.myform.js.value;  
-        console.log(js);  
+        console.log(js);
         
         
+        
+        
+        if  (c >= 50 && java >=50 && js >= 50)
+        {
+        document.write("<h1> Well Done!!<br>You have passed this exam &#128525;</h1>")
+    }
+        
+        if (c < 50 || java < 50 || js < 50)
+        {
+
+        document.write("<h1> FAILED &#128532; <br>Keep Trying!!</h1><br>");
+    }
+       
+
+                
+        else if(c>80||java>80||js>80)
+        {
+        if(c>80)
+        {
+            document.write(`<h1>Congratulation!! You have passed this exam and got C(Distinction) =  ${c} marks</h1>`);}
+        
+
+        if
+        (java >80)
+        {
+            document.write(`<h1>Congratulation!! You have passed this exam and got java(Distinction) =  ${java} marks.</h1>`);
+        } 
+        if(js >80)
+        {
+            document.write(`<h1>Congratulation!! You have passed this exam and got js(Distinction) = ${js}marks </h1>`);
+        }
     
+    }
+    else if (c >= 50 || java >=50 || js >= 50){
+
+    if (c>=50){
+        document.write(`<h1>C= ${c} marks</h1>`)
+    }
+    if (java>=50){
+        document.write(`<h1>java= ${java} marks</h1>`)
+    }
+    if (js>=50){
+        document.write(`<h1>js= ${js} marks</h1>`)
+    }
+}else{
+    document.write("<h1> Well Done!!<br>You have passed this exam &#128525;</h1>")
+}
+
+
+if(c<50)
+        {
+            document.write(`<h1>You have failed C= ${c}marks.</h1>`);
+        }
+      if
+        (java<50)
+            {
+                document.write(`<h1>You have failed Java = ${java}marks.</h1>`);
+        }
+    if(js<50)
+        {document.write(`<h1>You have failed  JS = ${js}marks.</h1>`)
+    }
     
-    //&& 
-    //||
-    // !
+
+         
+
+
+
+
+
+
+
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
     
- if (c>=50&&java>=50&&js>=50) { document.write("<h1> Well Done!!<br>You have passed this exam &#128525;</h1>")
- }
- if(c<50||java<50||js<50){document.write("<h1> FAILED &#128532; <br>Keep Trying!!</h1><br>")
-}
-if(c>80) {  document.write("<h1>*C(distinction)</h1>")
-   } 
-if(java>80) { document.write("<h1>*JAVA(distinction)</h1>")
-}
-if (js>80) { document.write("<h1> *Js(distinction)</h1>")
-}
-} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
     
