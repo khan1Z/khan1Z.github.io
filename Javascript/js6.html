@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body><script>
+    //function
+    function funName (){
+        document.write("<h3>HEllo function</h3>");
+
+    }
+    funName();
+    function result(num1,num2){
+         let res = num1 + num2;
+         document.write(`<h3>${res}</h3>`);
+
+    }
+    function subResult (num1=5,num2=3){
+        let sub_res =num1-num2;
+        document.write(`<h3>${sub_res}</h3>`);
+    }
+    result(34,35);
+    subResult()
+
+    let number1 =parseInt(prompt("Enter your number1"))
+    let number2 =parseInt(prompt("Enter your Number2"))
+    console.log(number1,number2);
+    result(number1,number2);
+    subResult(number1,number2)
+
+    //OBJECT
+
+    let laptop ={brand:'apple',type:'M1',price:27000}
+    console.log(laptop.type)
+    console.log(laptop);
+</script>
+    
+</body>
+</html>

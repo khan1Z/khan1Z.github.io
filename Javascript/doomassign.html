@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <label for="text">Name:</label>
+    <input type="text" name="fname" id="fname" ><br><br>
+    <label for="text">Age:</label>
+    <input type="text" name="fage" id="fage" ><br><br>
+    <button onclick="add()">Add</button><br><br>
+    
+        <table border ="1" cellspacing="0" cellpadding="30" width= "300px">
+            <thead>
+               <tr>
+                   <th>NO.</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+
+                </tr>
+            </thead><tbody id="tbody"></tbody>
+            <script>
+                let number= 1;
+                function add(){
+                    let no1=document.getElementsByName("number").value= number;++number
+
+                    let fname =document.getElementById('fname').value;
+
+                    let fage = document.getElementById('fage').value;
+
+                   let table= document.getElementsByTagName('table')[0];
+                   
+                   
+                   let newRow  = table.insertRow(table.length);
+
+                    let cell0  =newRow.insertCell(0);
+                    let cell1= newRow.insertCell(1);    
+                    let cell2= newRow.insertCell(2);
+
+                    cell0.innerHTML =no1;
+                    cell1.innerHTML = fname;
+                  cell2.innerHTML = fage;
+            }
+
+
+
+
+
+
+
+
+
+
+          
+               
+                
+        
+        
+       
+
+              
+                 
+            
+    
+    
+    
+    
+    
+    
+
+
+        
+
+
+                
+    
+
+                 
+
+
+               
+
+        
+    
+
+
+                
+              
+                    
+                
+</script>
+    
+</body>
+</html>

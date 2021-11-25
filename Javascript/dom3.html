@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+    <h1 id ="h1">CSs in dom</h1>
+    <img src ="img.jpeg" alt="" id="img">
+    <button onclick="move()">Move</button>
+    <br><br>
+    <img src="t.jpg" alt="" id ="img1" width="400" height ="400" onmouseover="big()" onmouseout="normal()">
+
+    <script>
+        function move(){
+            let img =document.getElementById('img');
+            document.getElementById('h1').style.background ="red";
+            img.style.width = "200px"
+            img.style.height= "300px"
+        }
+
+        function big (){
+            let img1 = document.getElementById('img1');
+            img1.style.width = "670px";
+    
+            img1.style.height="500px"
+        }
+
+        function  normal(){
+            let img1 = document.getElementById('img1');
+            img1.style.width = "400px";
+    
+            img1.style.height="400px";
+        }
+
+    </script>
+    
+</body>
+</html>
