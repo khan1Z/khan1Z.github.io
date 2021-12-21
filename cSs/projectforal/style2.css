@@ -1,0 +1,508 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    src: url(../projectforal/fontstyle/Smooch-Regular.ttf);
+    font-family:"lobster"
+}
+
+.logo{
+
+width:100px;
+height:70px;
+margin-left: 40px;
+border-radius: none;
+}
+
+.ky{margin-top:-55px;
+    margin-left:99px;
+    font-weight: bold;
+    font-family:lobster;
+    font-size:20px;
+
+}
+
+.nav_brand{
+    display: inline-block;
+
+} 
+.navbar ul {
+    float: right; 
+}
+.navbar ul li{
+    
+    display: inline-block;
+    margin-right:40px;
+    margin-top:30px;
+    text-transform: uppercase;
+    
+}
+.navbar  ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.navbar ul li a:hover{
+    color: #2f91bc;
+    letter-spacing: 4px;
+    transition-duration: 0.3s;
+}
+
+.clear{
+    clear: both;
+}
+.navbar{height: 90px;}
+
+.bga{
+    width: 100%;
+    height: 550px;
+    border-radius: 50px;
+}
+.background{ 
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    
+
+}
+.perfect{
+    font-family: lobster;
+    font-weight:unset ;
+
+}
+.sn{
+    
+    padding:10px 20px;
+    border-radius:5px;
+    border:1px solid blue;
+    margin-top: 20px;
+}
+.sn:hover{color: white;
+    background-color:2f91bc ;
+
+}
+
+.product{
+   
+     text-align: center;
+     padding-top:  50px;
+}
+.divided{
+    max-width: 100px;
+    margin: auto;
+    border-bottom: 1px solid blue;
+
+}
+
+.grid{
+    grid-template-columns:auto auto auto auto ;
+    display: grid;
+margin-top: 50px;
+grid-gap: 40px;
+text-align: center;
+margin-left: 50px;
+margin-right: 50px;
+
+
+
+}
+
+.img{
+    border-radius: 5px;
+    box-shadow: 0px 10px  20px rgb(0,0,0.15);
+
+}
+.del1{
+    color: red;
+}
+
+.bg1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    background-image: url(images/Image20211208141919.jpg);
+    width: 100%;
+    
+    
+
+    
+
+    
+    
+   
+}
+
+.bo2{  max-width: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+   
+
+
+}
+
+.rt{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.bg1 div{ padding: 60px 0px;
+
+}
+
+.hz{margin-top: 50px;
+    margin-left: 100px;
+    
+
+    color: black;
+}
+.i1{
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 30px;
+    float: left;
+    margin-right: 70px;
+}
+.hz1{margin-left: 30px;
+
+}
+    
+
+.clear{
+    clear: both;
+}
+
+.support_icon p{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.Foot1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px 0px 30px 30px;
+    margin-top: 80px;
+    background-color: grey;
+}
+
+.footer2{
+    background-color:black;
+    height:200px;
+}
+    
+
+
+
+ul li{ color: gery;
+    display: inline;
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+ul{
+    text-align: center;
+    
+   
+}
+.icon1{ color: grey; margin-top: 10px;padding: 10px;
+
+    text-align: center;
+}
+.list2{padding: 20px;
+    margin-top: 10px;
+
+}
+ .par{color: grey;padding: 20px;
+    text-align:center;
+    margin-top: 20px;
+ }
+ .par2{
+     padding: 20px;
+ }
+
+
+
+ /*SHOP*/
+ .shp1{
+     width: 500px;
+     height: 300px;
+ }
+.search{ margin-top: 30px;
+    text-align:left;
+
+}
+
+button{
+    padding: 1px;
+    margin-top: 100px;
+    border: none;
+}
+   
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 2px;
+    font-size: 17px;
+    border: 1px solid black;  }
+
+
+    #io{
+        margin-top: 12px;
+    }
+    
+    i{
+        margin-top: 100px;
+    }
+
+
+   #demo{
+       display: none;
+       
+   }
+ .grid{
+     display: grid;
+     grid-template-columns: auto auto auto;
+ }
+ img{
+     border-radius: 200px;
+     box-shadow: 0px 10px  20px rgb(0,0,0.15);
+
+ }
+ h4{
+     color: red;
+ }
+ .img4{
+     height: 300px;
+     border-radius: 50px;
+     box-shadow: 0px 10px  20px rgb(0,0,0.15);
+ }
+ del{ color: black;
+
+ }
+ .grid3{
+     display: grid;
+     grid-template-columns: auto auto auto  ;
+ }
+
+.link3 a{
+     text-decoration: none;
+     padding: 20px;
+     margin: 20px;
+     color: white;
+     
+ }
+
+ .cat{
+     padding: 30px;
+     background-color:gray;
+ }
+
+ .vase{
+     text-align: center;
+     margin-top: 20px;
+ }
+
+.Anniversary{
+    margin-top: 20px;
+   
+}
+.img5{
+    height: 200px;
+    border-radius:200px;
+}
+.wedding{
+    background-color: black;
+}
+
+
+.grid6{display: grid;
+    grid-template-columns: auto auto auto;
+
+
+
+}
+
+
+
+.img7{
+    height: 200px;
+    
+        border-radius: 50px;
+    
+
+}
+
+.grid6{margin-top: 20px;
+    display: grid;
+     grid-template-columns: auto auto auto  auto  auto ;
+}
+#grand{margin-top: 20px;
+    margin-bottom: 10px;
+}
+.grand1{
+    margin-left: 30px;
+    color: black;
+    
+}
+
+.twodo{margin-top: 20px;
+    margin-left: 60px;
+    color:black;
+}
+
+
+.img2{
+height: 200px;
+}
+
+.bg4{
+    background-image: url(../projectforal/images/796cbe4049f58b297472019762b6af9c.gif);
+}
+.bg8{
+    background-image: url(../projectforal/images/YsWRDA.gif);
+   
+    background-repeat: no-repeat;
+   background-size: 100%;
+    
+}
+.drop{
+    background-image: url(../projectforal/images/ecdfc91ba55d2b4f658dbd9e7b4bb58f.gif);
+}
+.divided1{
+    max-width: 100px;
+    margin: auto;
+    border-bottom: 5px solid black;
+
+
+}
+
+.hzc{
+    color: black;
+    size: 20px;
+}
+
+
+
+
+
+
+    
+.backg{
+  background-color: black;
+    height: 1800px;
+    
+
+}
+.vase1{
+    color: cornsilk;
+    text-align: center;
+    margin-top: 40px;
+}
+ .divided2{
+    max-width: 100px;
+    margin: auto;
+    border-bottom: 5px solid whitesmoke;
+
+
+ }
+
+ .imj{
+     height: 400px;
+     
+     
+     
+     margin-left: 40px;
+     border-bottom-right-radius: 100px;
+    
+    border-bottom-left-radius:100px ;
+     
+ }
+ .imj2{
+     height:400px;
+     float:right;
+     border-radius: 10px;
+     margin-right: 90px;
+     margin-top: 70px;
+
+ }
+
+  
+
+.sn1{
+
+    
+        padding:10px 15px;
+        border-radius:10px;
+        border:1px solid ;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .sn1:hover{color:chartreuse;
+        background-color:2f91bc ;
+    
+}
+.vase2{ margin-top: 100px;
+color: red;
+text-align: center;}
+
+.story{ margin-left: 200px;
+    color: grey;
+    
+    margin-top: 50px;
+    font-size: 20px;
+}
+#ic{
+    margin-right: 20px;
+    margin-top: 70px;
+    color: red;
+}
+.ig1{
+    float: left;
+    border-radius: 1px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.imj3{
+    height: 400px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 150px;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+.contact{
+    color: gray;
+    margin-top: 150px;
+    margin-left: 75px;
+    font-size: 20px;
+}
+.dia{
+    margin-left: 40px;
+}
+#id{
+color: red;
+
+}
+.conta{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+}
+
+
+
+    
+
